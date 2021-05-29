@@ -28,27 +28,6 @@ function preload() {
 function setup() {
   createCanvas(320, 320);
   // Create the video
-    var constraints = {
-
-    audio: false,
-
-    video: {
-
-      facingMode: {
-
-        exact: "environment"
-
-      }
-
-    }   
-
-    //video: {
-
-      //facingMode: "user"
-
-    //}
-
-  };
   
   video = createCapture(constraints);
   video.size(320, 320);
