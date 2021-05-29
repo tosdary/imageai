@@ -29,7 +29,7 @@ function setup() {
   createCanvas(320, 320);
   // Create the video
   
-  video = createCapture(constraints);
+  video = createCapture(Video);
   video.size(320, 320);
   video.hide();
 
