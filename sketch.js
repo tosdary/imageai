@@ -33,7 +33,7 @@ function setup() {
   video.size(320, 320);
   video.hide();
 
-  flippedVideo = ml5.flipImage(video)
+  flippedVideo = ml5.flipImage(VIDEO)
   // Start classifying
   classifyVideo();
 }
